@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'aws-sdk-ssm'
   s.add_development_dependency 'rake', '~> 10'
   s.add_development_dependency 'rspec', '~> 3.5'
-  s.files = Dir['{lib,bin,docs}/**/*'] + %w(sfn-sfn-ssm.gemspec README.md CHANGELOG.md LICENSE Rakefile)
+  s.files = Dir['{lib,bin,docs}/**/*'] + %w(sfn-ssm.gemspec README.md CHANGELOG.md LICENSE)
 end
