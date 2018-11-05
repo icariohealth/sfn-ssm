@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.summary = 'SparkleFormation Parameters - SSM Resolver'
   s.author = "Ryan O'Keeffe"
   s.email = 'ryan.okeeffe@novu.com'
-  s.homepage = 'https:/www.novuhealth.com'
+  s.homepage = 'https://www.novuhealth.com'
   s.description = 'SparkleFormation Parameters - SSM Resolver'
   s.license = 'Apache-2.0'
   s.require_path = 'lib'
