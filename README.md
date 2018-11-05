@@ -1,5 +1,7 @@
 # sfn-ssm
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/3083239924d072e687b7/maintainability)](https://codeclimate.com/github/novu/sfn-ssm/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/3083239924d072e687b7/test_coverage)](https://codeclimate.com/github/novu/sfn-ssm/test_coverage)
+
 sfn-ssm is a parameter resolver used with Sparkleformation via sfn-parameters
 (https://github.com/sparkleformation/sfn-parameters)
 
