@@ -1,5 +1,7 @@
 # sfn-ssm
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/3083239924d072e687b7/maintainability)](https://codeclimate.com/github/novu/sfn-ssm/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/3083239924d072e687b7/test_coverage)](https://codeclimate.com/github/novu/sfn-ssm/test_coverage)
+
 sfn-ssm is a parameter resolver used with Sparkleformation via sfn-parameters
 (https://github.com/sparkleformation/sfn-parameters)
 
@@ -29,3 +31,18 @@ parameters:
   stack_creator:
     parameter_store: name_to_lookup
 ```
+
+# Contributing
+
+1. Create a new branch based on the develop branch unless you are patching against master. We build releases from master.
+2. Make sure you have spec tests for any additions/changes
+3. Submit a meaningful PR including use case, description, etc.
+
+## Publishing a new release
+1. Follow standard practice:
+   * update the gem version
+   * update the changelog
+   * getting approvals (Novu)
+2. Run spec tests and rubocop. Correct issues
+3. Create a PR from develop to master. Master represents the last released code.
+4. Run the `sfn-ssm-publisher` job when you wish to release
